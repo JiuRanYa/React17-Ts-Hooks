@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+import {MainLayout} from "./Layout/MainLayout";
+import './App.less';
 
 function App() {
   return (
     <div className="App">
-     sataert
+      <MainLayout />
     </div>
   );
 }
